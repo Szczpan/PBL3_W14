@@ -6,7 +6,7 @@ UDP_IP = "192.168.114.193"
 UDP_PORT = 12054
 MESSAGE = ""
 
-for i in range(65507):
+for i in range(65000):
     MESSAGE += random.choice(string.ascii_letters)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
