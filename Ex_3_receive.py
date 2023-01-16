@@ -6,7 +6,7 @@ count = 0
 # sock.listen(1)
 # sock.accept()
 while True:
-    data, address = sock.recv(65000)
+    data, address = sock.recvfrom(65000)
     print(data.decode('utf-8'))
     if address == "192.168.114.122":
         count += 1
