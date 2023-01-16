@@ -10,3 +10,4 @@ while True:
     print(data.decode('utf-8'))
     if address == "192.168.114.122":
         count += 1
+        print(count)
